@@ -2903,6 +2903,24 @@ img {
 
 ***/
 
+.flexx{
+    display: flex ;
+    align-items: center;
+    
+}
+.feature_row{
+        display: flex;
+        /* flex-wrap: wrap; */
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 0 1rem;
+        gap: 1rem;
+}
+@media (max-width: 768px){
+.feature_row{
+  flex-direction: column;
+}
+}
 .features-section {
     position: relative;
     padding: 120px 0 80px;
@@ -3692,7 +3710,7 @@ img {
     transition: all 300ms ease;
 }
 
-.speaker-block .info-box .name a:hover {}
+/* .speaker-block .info-box .name a:hover {} */
 
 .speaker-block .info-box .designation {
     position: relative;
