@@ -1013,7 +1013,9 @@ img {
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
 }
-
+.main-header .logo-box img{
+width: 4rem;
+}
 .main-header .nav-outer {
     position: relative;
     float: right;
