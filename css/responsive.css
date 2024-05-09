@@ -128,6 +128,7 @@
 	.about-section .image-column .image-box {
 		padding-left: 0;
 		text-align: center;
+		height: 350px;
 	}
 
 	.clients-section {
@@ -830,7 +831,13 @@
 	.banner-conference-two .content-box h2 {
 		font-size: 34px;
 	}
-}
+	/* ADDED */
+	.about-section .image-column{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	}
+
 
 
 /*** 
@@ -1091,5 +1098,8 @@
 
 	.count-text {
 		font-size: 2.125rem !important;
+	}
+	.page-title h1, .banner-meetup h2, .banner-conference .content-box h2, .error-section h4, .event-info-section .info-column .sec-title h2, .about-section .content-column .sec-title h2, .sec-title h2 {
+        font-size: 25px;
 	}
 }
