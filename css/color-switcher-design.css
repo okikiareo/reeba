@@ -5,6 +5,10 @@
 ====================================================================
 
 ***/
+:root{
+    --ylw: rgb(250, 172, 29);
+    --drylw: rgb(99, 66, 6);
+}
 
 .color-palate {
     background: #fff none repeat scroll 0 0;
@@ -24,7 +28,7 @@
 }
 
 .color-palate-head {
-    background: #f20487 none repeat scroll 0 0;
+    background: rgb(250, 172, 29) none repeat scroll 0 0;
     padding: 15px 0;
     margin-bottom: 30px;
 }
@@ -92,7 +96,7 @@
 }
 
 .palate.default-color {
-    background: #f20487 none repeat scroll 0 0;
+    background:rgb(250, 172, 29) none repeat scroll 0 0;
 }
 
 .palate.green-color {
@@ -120,11 +124,11 @@
 }
 
 .palate.redd-color {
-    background: #FF4136 none repeat scroll 0 0;
+    background: var(--ylw) none repeat scroll 0 0;
 }
 
 .color-trigger {
-    background: #f20487 none repeat scroll 0 0;
+    background: var(--ylw) none repeat scroll 0 0;
     cursor: pointer;
     height: 50px;
     right: -46px;
@@ -158,7 +162,7 @@
     line-height:50px;
     content: "\f00d";
     font-family: "Font Awesome 5 Free";
-    background-color: #f20487;
+    background-color: var(--ylw);
     z-index: 1;
     opacity: 0;
     visibility: hidden;
@@ -212,7 +216,7 @@
     line-height: 20px;
     padding: 5px 18px;
     text-align: center;
-    background-color: #f20487;
+    background-color: var(--ylw);
     color: #ffffff;
     cursor: pointer;
     border-radius: 5px;
@@ -253,7 +257,7 @@
 }
 
 .color-palate .purchase-btn:hover{
-    background-color: #f20487;
+    background-color: var(--ylw)
 }
 
 

@@ -122,6 +122,10 @@ Last Change:    12/9/2019
 ====================================================================
 
  ***/
+ :root{
+    --ylw: rgb(250, 172, 29);
+    --drylw: rgb(99, 66, 6);
+}
 
 body {
     font-size: 14px;
@@ -564,7 +568,7 @@ img {
     font-size: 16px;
     content: "\52";
     font-family: 'ElegantIcons';
-    color: #e1137b;
+    color: var(--ylw);
 }
 
 
@@ -790,7 +794,7 @@ img {
     text-align: center;
     z-index: 100;
     cursor: pointer;
-    background: #e1137b;
+    background: var(--ylw);
     display: none;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -801,7 +805,7 @@ img {
 
 .scroll-to-top:hover {
     color: #ffffff;
-    background: #4c35a9;
+    background: var(--drylw)
 }
 
 .tabs-box {
@@ -915,10 +919,10 @@ img {
     line-height: 1em;
     color: #ff8a01;
     font-weight: 500;
-    background: rgb(247, 0, 104);
-    background: -moz-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 25%, rgba(247, 0, 104, 1) 75%, rgba(68, 16, 102, 1) 100%);
-    background: -webkit-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 25%, rgba(247, 0, 104, 1) 75%, rgba(68, 16, 102, 1) 100%);
-    background: linear-gradient(to left, rgba(247, 0, 104) 0%, rgba(68, 16, 102, 1) 25%, rgba(247, 0, 104, 1) 75%, rgba(68, 16, 102, 1) 100%);
+    background: var(--ylw);
+    background: -moz-linear-gradient(to left, rgba(250, 172, 29, 1) 0%, rgb(75, 50, 5) 25%, rgba(250, 172, 29, 1) 75%, rgba(75, 50, 5, 1) 100%);
+    background: -webkit-linear-gradient(to left, rgba(250, 172, 29, 1) 0%, rgba(75, 50, 5, 1) 25%, rgba(250, 172, 29, 1) 75%, rgba(75, 50, 5, 1) 100%);
+    background: linear-gradient(to left, rgba(250, 172, 29) 0%, rgba(75, 50, 5, 1) 25%, rgba(250, 172, 29, 1) 75%, rgba(75, 50, 5, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066', GradientType=1);
     color: transparent;
     /* -webkit-background-clip: text; */
@@ -1076,10 +1080,10 @@ width: 4rem;
     -ms-transform: scale(-1);
     -o-transform: scale(-1);
     transform: scale(-1);
-    background: rgb(247, 0, 104);
-    background: -moz-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 100%);
-    background: -webkit-linear-gradient(to left, rgba(247, 0, 104, 1) 0%, rgba(68, 16, 102, 1) 100%);
-    background: linear-gradient(to left, rgba(247, 0, 104) 0%, rgba(68, 16, 102, 1) 100%);
+    background: var(-ylw);
+    background: -moz-linear-gradient(to left, rgba(250, 172, 29, 1) 0%, rgb(99, 66, 6) 100%);
+    background: -webkit-linear-gradient(to left, rgba(250, 172, 29, 1) 0%, rgba(99, 66, 6, 1) 100%);
+    background: linear-gradient(to left, rgba(250, 172, 29) 0%, rgb(99, 66, 6) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066', GradientType=1);
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -1420,7 +1424,7 @@ width: 4rem;
     font-size: 40px;
     line-height: 50px;
     cursor: pointer;
-    color: #e1137b;
+    color: var(--ylw);
     margin: 7px 0px 2px;
     display: none;
 }
@@ -1625,7 +1629,7 @@ width: 4rem;
     text-align: center;
     font-size: 14px;
     color: #ffffff;
-    background-color: #e1137b;
+    background-color: var(--ylw);
     cursor: pointer;
     z-index: 10;
     -webkit-transition: all 0.5s ease;
@@ -1681,7 +1685,7 @@ width: 4rem;
 
 .mobile-menu .navigation li:hover>a,
 .mobile-menu .navigation li.current>a {
-    color: #e1137b;
+    color: var(--ylw);
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn {
@@ -3189,7 +3193,7 @@ width: 4rem;
     background: linear-gradient(to left, rgba(247, 0, 104) 0%, rgba(68, 16, 102, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#F70068', endColorstr='#441066', GradientType=1);
     background: none;
-    color: #f14b59;
+    color: var(--ylw);
     -webkit-transition: all 400ms ease;
     -moz-transition: all 400ms ease;
     -ms-transition: all 400ms ease;
@@ -6196,7 +6200,7 @@ width: 4rem;
     display: block;
     height: 58px;
     width: 58px;
-    background-color: #ec167f;
+    background-color: var(--ylw);
     color: #ffffff;
     border-radius: 50%;
     font-weight: 700;
@@ -8386,7 +8390,7 @@ width: 4rem;
     bottom: 0;
     height: 1px;
     width: 40px;
-    background-color: #f70068;
+    background-color: var(--ylw);
     content: '';
 }
 
@@ -8517,7 +8521,7 @@ width: 4rem;
     color: #ffffff;
     font-weight: 400;
     padding: 0 15px;
-    border-left: 1px solid #f70068;
+    border-left: 1px solid var(--ylw);
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -8672,7 +8676,7 @@ width: 4rem;
     text-align: center;
     line-height: 20px;
     font-size: 18px;
-    color: #f70068;
+    color:var(--ylw);
     font-weight: 900;
     content: "\f0c1";
     font-family: "Font Awesome 5 Free";
